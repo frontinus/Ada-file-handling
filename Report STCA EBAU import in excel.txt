@@ -1,0 +1,323 @@
+CSU|Statement %|Statement covered|Statement Out of|Branch %|Branch covered|Branch Out of|MCDC %|MCDC covered|MCDC Out of
+ Analog| Normalize_In_5V                                        | 100,0%|4|4 |       |||       ||
+ Analog| Initialize_In_Analogic                                 | 100,0%|35|35| 100,0%|4|4 |       ||
+ Analog| Read_Input_Analogic                                    | 100,0%|23|23| 100,0%|2|2 |       ||
+ App_Dev_Gen_Utils| Limit_Integer_Value_To_Range                           | 100,0%|4|4 | 100,0%|2|2 |       ||
+ App_Dev_Gen_Utils| Limit_Fixed_Point_Value_To_Range                       | 100,0%|4|4 | 100,0%|2|2 |       ||
+ App_Dev_Gen_Utils| Cyclic_Increment                                       | 100,0%|3|3 | 100,0%|1|1 |       ||
+ App_Dev_Utils| Assign_Mons                                            | 100,0%|4|4 | 100,0%|1|1 | 100,0%|2|2 
+ App_Dev_Utils| Assign_Mons                                            | 100,0%|4|4 | 100,0%|1|1 |       | |
+ App_Dev_Utils| Handle_Invalid_Data                                    | 100,0%|3|3 |       | ||       | |
+ App_Dev_Utils| Determine_Data_Parity                                  | 100,0%|9|9 | 100,0%|3|3 |       | |
+ App_Dev_Utils| Odd                                                    | 100,0%|3|3 | 100,0%|1|1 |       | |
+ Apsw| Reset_1553_Transactions_List                           | 100,0%|18|18|       | ||       | |
+ Apsw| Retrieve_1553_Not_Bc_Transactions_List                 | 100,0%|5|5 |       | ||       | |
+ Apsw| Retrieve_1553_Transactions_Lists                       | 100,0%|13|13| 100,0%|2|2 |       | |
+ Apsw| Update_Transactions_Lists                              | 100,0%|5|5 |       | ||       | |
+ Apsw| Manage_Statistics                                      | 100,0%|9|9 |       | ||       | |
+ Apsw| Initialize                                             | 100,0%|31|31| 100,0%|2|2 |       | |
+ Apsw| Retrieve_Frame_Number                                  | 100,0%|35|35| 100,0%|7|7 | 100,0%|2|2 
+ Apsw| Process                                                | 100,0%|10|10| 100,0%|1|1 |       | |
+ Process_In_Out| Process_Incoming_Msgs                                  | 100,0%|17|17| 100,0%|3|3 | 100,0%|2|2 
+ Process_In_Out| Process_Not_Bc_Incoming_Msgs                           | 100,0%|16|16| 100,0%|3|3 | 100,0%|5|5 
+ Process_In_Out| Prepare_Outgoing_Msgs                                  | 100,0%|17|17| 100,0%|4|4 | 100,0%|2|2 
+ Process_In_Out| Prepare_Not_Bc_Outgoing_Msgs                           | 100,0%|16|16| 100,0%|3|3 | 100,0%|2|2 
+ Process_In_Out| Process_1553_Input                                     | 100,0%|6|6 | 100,0%|1|1 |       | |
+ Process_In_Out| Prepare_1553_Output                                    | 100,0%|7|7 | 100,0%|1|1 |       | |
+ Process_State_Machine| Wait_For_Mc_Initialization                             | 100,0%|14|14| 100,0%|3|3 | 100,0%|4|4 
+ Process_State_Machine| Initialize_Normal                                      | 100,0%|6|6 |       | ||       | |
+ Process_State_Machine| Perform_Normal_Operations                              | 100,0%|15|15| 100,0%|2|2 |       | |
+ Process_State_Machine| Initialize_Backup                                      | 100,0%|34|34| 100,0%|5|5 |       | |
+ Process_State_Machine| Perform_Backup_Operations                              | 100,0%|13|13|       | ||       | |
+ APSW_INFO| GET_ARRAY_INFO                                         | 100,0%|3|3 |       | ||       | |
+ Apsw_Utils| Generate_Crc                                           | 100,0%|1|1 |       | ||       | |
+ Apsw_Utils| Manage_Safe_Counter                                    | 100,0%|13|13| 100,0%|3|3 | 100,0%|2|2 
+ Apsw_Utils| Manage_Time_To_End                                     | 100,0%|9|9 | 100,0%|1|1 |       | |
+ Apsw_Utils| Calculate_Crc16                                        | 100,0%|4|4 |       | ||       | |
+ Apsw_Utils| Increment_Frame                                        | 100,0%|4|4 | 100,0%|1|1 |       | |
+ Apsw_Utils| Set_Non_Mask_8_Bits_To_Zero                            | 100,0%|1|1 |       | ||       | |
+ Apsw_Utils| Set_Non_Mask_16_Bits_To_Zero                           | 100,0%|1|1 |       | ||       | |
+ Apsw_Utils| Set_Non_Mask_32_Bits_To_Zero                           | 100,0%|1|1 |       | ||       | |
+ Backup_Ops| Receive_Dai_Msg_List                                   | 100,0%|7|7 | 100,0%|2|2 |       | |
+ Backup_Ops| Report_Fault                                           | 100,0%|4|4 |       | ||       | |
+ Backup_Ops| Transmit_Dai_Msg_List                                  | 100,0%|7|7 | 100,0%|2|2 | 100,0%|3|3 
+ Backup_Ops| Send_Ics_Control_Command                               | 100,0%|6|6 | 100,0%|1|1 |       | |
+ Bacs_State| Get_Bleed_Overpressure_Class                           | 100,0%|2|2 |       | ||       | |
+ Bacs_State| Set_Bleed_Overpressure_Class                           | 100,0%|2|2 |       | ||       | |
+ Bacs_State| Get_Bleed_Overheat_Mon                                 | 100,0%|2|2 |       | ||       | |
+ Bacs_State| Set_Bleed_Overheat_Mon                                 | 100,0%|2|2 |       | ||       | |
+ Bacs_State| Get_Bleed_Fault_Class                                  | 100,0%|2|2 |       | ||       | |
+ Bacs_State| Set_Bleed_Fault_Class                                  | 100,0%|2|2 |       | ||       | |
+ Bacs_State| Get_Wing_Bleed_Air_Leak_Mon                            | 100,0%|2|2 |       | ||       | |
+ Bacs_State| Set_Wing_Bleed_Air_Leak_Mon                            | 100,0%|2|2 |       | ||       | |
+ Bacs_State| Get_Fuselage_Bleed_Air_Leak_Mon                        | 100,0%|2|2 |       | ||       | |
+ Bacs_State| Set_Fuselage_Bleed_Air_Leak_Mon                        | 100,0%|2|2 |       | ||       | |
+ Baut2_Di| Initialize_Backup                                      | 100,0%|9|9 | 100,0%|1|1 |       | |
+ Baut2_Di| Prepare_Output_Msg                                     | 100,0%|11|11|       | ||       | |
+ Baut2_State| Set_Engine_Oil_Cooler_Flap                             | 100,0%|1|1 |       | ||       | |
+ Baut2_State| Set_Impact_Pressure_Q_Feel                             | 100,0%|2|2 |       | ||       | |
+ Baut2_State| Set_Tcas_Power_Enable                                  | 100,0%|1|1 |       | ||       | |
+ Baut2_State| Set_Iff_1_Power_Enable                                 | 100,0%|1|1 |       | ||       | |
+ Baut2_State| Set_ELT_Relay_Operate                                  | 100,0%|1|1 |       | ||       | |
+ Baut2_State| Get_Engine_Oil_Cooler_Flap                             | 100,0%|1|1 |       | ||       | |
+ Baut2_State| Get_Impact_Pressure_Q_Feel                             | 100,0%|1|1 |       | ||       | |
+ Baut2_State| Get_Tcas_Power_Enable                                  | 100,0%|1|1 |       | ||       | |
+ Baut2_State| Get_Iff_1_Power_Enable                                 | 100,0%|1|1 |       | ||       | |
+ Baut2_State| Get_ELT_Relay_Operate                                  | 100,0%|1|1 |       | ||       | |
+ Baut3_Di| Prepare_Output_Msg                                     | 100,0%|13|13|       | ||       | |
+ Bit_Mngr| Update_Din_Pbit_Result                                 | 100,0%|20|20| 100,0%|2|2 | 100,0%|2|2 
+ Cadc_Ctrl| Compute_Baroset_Pressure                               | 100,0%|4|4 |       | ||       | |
+ Cadc_Di| Prepare_Output_Msg                                     | 100,0%|7|7 |       | ||       | |
+ Cadc_State| Get_Adc_Failure                                        | 100,0%|1|1 |       | ||       | |
+ Cadc_State| Set_Adc_Failure                                        | 100,0%|1|1 |       | ||       | |
+ Cadc_State| Get_Airspeed                                           | 100,0%|2|2 |       | ||       | |
+ Cadc_State| Set_Airspeed                                           | 100,0%|2|2 |       | ||       | |
+ Cadc_State| Get_Air_Temp                                           | 100,0%|2|2 |       | ||       | |
+ Cadc_State| Set_Air_Temp                                           | 100,0%|2|2 |       | ||       | |
+ Cadc_State| Get_Cadc_1553_Data_Bus_Communication_Status            | 100,0%|2|2 |       | ||       | |
+ Cadc_State| Set_Cadc_1553_Data_Bus_Communication_Status            | 100,0%|2|2 |       | ||       | |
+ Cadc_State| Get_Corrected_Altitude                                 | 100,0%|2|2 |       | ||       | |
+ Cadc_State| Set_Corrected_Altitude                                 | 100,0%|2|2 |       | ||       | |
+ Cadc_State| Get_Pressure_Altitude_Rate                             | 100,0%|2|2 |       | ||       | |
+ Cadc_State| Set_Pressure_Altitude_Rate                             | 100,0%|2|2 |       | ||       | |
+ Cadc_State| Get_Static_Pressure                                    | 100,0%|2|2 |       | ||       | |
+ Cadc_State| Set_Static_Pressure                                    | 100,0%|2|2 |       | ||       | |
+ Cadc_State| Get_Vmo                                                | 100,0%|11|11| 100,0%|2|2 |       | |
+ Cmdu_Blank_Di| Prepare_Control_Data_01_Msg                            | 100,0%|22|22| 100,0%|2|2 |       | |
+ Cmdu_Eid_Ctrl| Compute_Generator_Rpm_Class                            | 100,0%|9|9 |       | ||       | |
+ Cmdu_Eid_Ctrl| Compute_Horsepower_Class                               | 100,0%|9|9 |       | ||       | |
+ Cmdu_Eid_Ctrl| Compute_Ids_Msg_List                                   |  94,7%|18|19|  80,0%|4|5 |  77,8%|7|9 
+ Cmdu_Eid_Di| Update_Validities_For_Output                           | 100,0%|7|7 | 100,0%|1|1 |       | |
+ Cmdu_Eid_Di| Prepare_Eid_05_To_08_Output_Msg                        | 100,0%|22|22| 100,0%|1|1 | 100,0%|2|2 
+ Cmdu_Eid_Di| Prepare_Eid_11_Output_Msg                              | 100,0%|26|26| 100,0%|5|5 |       | |
+ Cmdu_Eid_Di| Prepare_Eid_12_To_19_Set_Text_Substring_Output_Msg     | 100,0%|76|76| 100,0%|10|10|       | |
+ Cmdu_Eid_Di| Prepare_Eid_12_Define_Text_Region_Output_Msg           | 100,0%|1|1 |       |  ||       | |
+ Cmdu_Eid_Di| Eid_12_Output_Processing                               | 100,0%|11|11|       |  ||       | |
+ Cmdu_Eid_Di| Prepare_Eid_Control_Data_01_Msg                        | 100,0%|24|24| 100,0%|2|2 |       | |
+ Cmdu_Pfd_Ctrl| Compute_Airspeed                                       | 100,0%|4|4 |       | ||       | |
+ Cmdu_Pfd_Ctrl| Compute_Altitude                                       | 100,0%|4|4 |       | ||       | |
+ Cmdu_Pfd_Ctrl| Compute_Vertical_Velocity                              | 100,0%|4|4 |       | ||       | |
+ Cmdu_Pfd_Ctrl| Compute_Angle                                          | 100,0%|3|3 |       | ||       | |
+ Cmdu_Pfd_Ctrl| Compute_Compass_Direction                              | 100,0%|5|5 | 100,0%|1|1 |       | |
+ Cmdu_Pfd_Ctrl| Compute_Baroset_Pressure                               | 100,0%|7|7 | 100,0%|1|1 |       | |
+ Cmdu_Pfd_Ctrl| Compute_Salert_Message                                 | 100,0%|10|10| 100,0%|3|3 | 100,0%|2|2 
+ Cmdu_Pfd_Di| Assign_Validity                                        | 100,0%|1|1 |       | ||       | |
+ Cmdu_Pfd_Di| Prepare_Pfd_04_Output_Msg                              | 100,0%|19|19|       | ||       | |
+ Cmdu_Pfd_Di| Prepare_Pfd_05_Output_Msg                              | 100,0%|34|34| 100,0%|3|3 |       | |
+ Dev_Mapper| Get_Rt_Addr                                            | 100,0%|5|5 | 100,0%|2|2 |       | |
+ Dev_Mapper| Init                                                   | 100,0%|13|13| 100,0%|3|3 |       | |
+ Dev_Router| Initialize                                             | 100,0%|1|1 |       | ||       | |
+ Dev_Router| Route_Output_Msg                                       | 100,0%|28|28| 100,0%|5|5 | 100,0%|6|6 
+ Device_Health| Status_Is_Ok                                           | 100,0%|4|4 | 100,0%|2|2 | 100,0%|5|5 
+ Dfdr_Ctrl| Get_Fadec_Engine_Torque                                | 100,0%|1|1 |       | ||       | |
+ Dfdr_Ctrl| Get_Fadec_Generator_Speed                              | 100,0%|1|1 |       | ||       | |
+ Dfdr_Ctrl| Get_Fadec_Propeller_Speed                              | 100,0%|1|1 |       | ||       | |
+ Dfdr_Ctrl| Get_Fadec_Throttle_Lever                               | 100,0%|1|1 |       | ||       | |
+ Dfdr_Ctrl| Compute_Air_Temp                                       | 100,0%|6|6 | 100,0%|1|1 |       | |
+ Dfdr_Ctrl| Compute_Altitude                                       | 100,0%|6|6 | 100,0%|1|1 |       | |
+ Dfdr_Ctrl| Compute_Attitude                                       | 100,0%|9|9 | 100,0%|1|1 |       | |
+ Dfdr_Ctrl| Compute_Engine_Torque_Class                            | 100,0%|4|4 |       | ||       | |
+ Dfdr_Ctrl| Compute_Gas_Generator_Speed_Class                      | 100,0%|4|4 |       | ||       | |
+ Dfdr_Ctrl| Compute_Airspeed                                       | 100,0%|6|6 | 100,0%|1|1 |       | |
+ Dfdr_Ctrl| Compute_Propeller_Speed_Class                          | 100,0%|4|4 |       | ||       | |
+ Dfdr_Ctrl| Compute_Throttle_Lever_Class                           | 100,0%|4|4 |       | ||       | |
+ Dfdr_Ctrl| Compute_Wow_Ground_Class                               | 100,0%|1|1 |       | ||       | |
+ Dfdr_Ctrl| Compute_Wow_Failure_Class                              | 100,0%|1|1 |       | ||       | |
+ Dfdr_Ctrl| Compute_All_Gears_Uplocked_Class                       | 100,0%|1|1 |       | ||       | |
+ Dfdr_Ctrl| Compute_Downlock_1_Class                               | 100,0%|1|1 |       | ||       | |
+ Dfdr_Ctrl| Compute_Downlock_2_Class                               | 100,0%|1|1 |       | ||       | |
+ Dfdr_Ctrl| Compute_Engine_Fire_Alarm_Class                        | 100,0%|1|1 |       | ||       | |
+ Dfdr_Ctrl| Compute_Apu_Fire_Alarm_Class                           | 100,0%|1|1 |       | ||       | |
+ Dfdr_Di| Prepare_Sub1_Output_Msg                                | 100,0%|15|15| 100,0%|1|1 |       | |
+ Discrete| Compute_Discretes_Ebau                                 | 100,0%|6|6 |       | ||       | |
+ Ditu_Ctrl| Compute_Device_Cons                                    | 100,0%|8|8 | 100,0%|1|1 |       | |
+ Ditu_Di| Prepare_Sub1_Output_Msg                                | 100,0%|11|11|       | ||       | |
+ Ditu_Di| Process_Wrap_Input_Msg                                 | 100,0%|1|1 |       | ||       | |
+ Ditu_Di| Process_Input_Msg                                      | 100,0%|3|3 |       | ||       | |
+ Ebau_Bus_Config| Start_Ebau_Rt                                          | 100,0%|15|15| 100,0%|1|1 |       | |
+ Ebau_Bus_Config| Stop_Ebau_Rt                                           | 100,0%|11|11| 100,0%|1|1 |       | |
+ Ebau_Bus_Config| Initialize_Ebau1_Id                                    | 100,0%|23|23| 100,0%|4|4 |       | |
+ Ebau_Bus_Config| Initialize_Ebau2_Id                                    | 100,0%|23|23| 100,0%|4|4 |       | |
+ Ebau_Bus_Config| Is_Bc                                                  | 100,0%|1|1 |       | ||       | |
+ Ebau_Bus_Config| Get_Ebau_Mil1553_Config                                | 100,0%|3|3 |       | ||       | |
+ Ebau_Bus_Config| Get_Tsap_Rt_Id                                         | 100,0%|1|1 |       | ||       | |
+ Ebau_Bus_Config| Activity_Detected                                      | 100,0%|10|10| 100,0%|1|1 |       | |
+ Ebau_Bus_Config| Power_Up_Manag                                         | 100,0%|13|13| 100,0%|1|1 |       | |
+ Ebau_Bus_Config| Activate_Backup_Manag                                  | 100,0%|14|14| 100,0%|2|2 | 100,0%|2|2 
+ Ebau_Bus_Config| Stop_1553_Operations                                   | 100,0%|2|2 |       | ||       | |
+ Ebau_Bus_Config| Start_Ebau_Bc                                          | 100,0%|16|16| 100,0%|1|1 |       | |
+ Ebau_Bus_Config| Stop_Ebau_Bc                                           | 100,0%|12|12| 100,0%|1|1 |       | |
+ Ebau_Bus_Config| Initialize_Ebau_Ids                                    | 100,0%|4|4 |       | ||       | |
+ Ebau_Di| Prepare_Output_Msg                                     | 100,0%|17|17| 100,0%|2|2 |       | |
+ Ecu_State| Get_Elv_Q_Feel_Failure                                 | 100,0%|9|9 | 100,0%|2|2 | 100,0%|4|4 
+ Ecu_State| Set_Elv_Q_Feel_Failure                                 | 100,0%|2|2 |       | ||       | |
+ Ecu_State| Get_Rud_Tlu_Failure                                    | 100,0%|9|9 | 100,0%|2|2 | 100,0%|4|4 
+ Ecu_State| Set_Rud_Tlu_Failure                                    | 100,0%|2|2 |       | ||       | |
+ Ecu_State| Get_Pitch_Disconnect_Status                            | 100,0%|9|9 | 100,0%|2|2 | 100,0%|4|4 
+ Ecu_State| Set_Pitch_Disconnect_Status                            | 100,0%|2|2 |       | ||       | |
+ Egi_Di| Prepare_Output_Msg                                     | 100,0%|6|6 |       | ||       | |
+ Egi_State| Get_Attitude                                           | 100,0%|5|5 |       | ||       | |
+ Egi_State| Set_Attitude                                           | 100,0%|5|5 |       | ||       | |
+ Egi_State| Get_Magnetic_Heading                                   | 100,0%|2|2 |       | ||       | |
+ Egi_State| Set_Magnetic_Heading                                   | 100,0%|2|2 |       | ||       | |
+ Egi_State| Get_Lateral_Acceleration                               | 100,0%|2|2 |       | ||       | |
+ Egi_State| Set_Lateral_Acceleration                               | 100,0%|2|2 |       | ||       | |
+ Egi_State| Get_Longitudinal_Acceleration                          | 100,0%|2|2 |       | ||       | |
+ Egi_State| Set_Longitudinal_Acceleration                          | 100,0%|2|2 |       | ||       | |
+ Egi_State| Get_Normal_Acceleration                                | 100,0%|2|2 |       | ||       | |
+ Egi_State| Set_Normal_Acceleration                                | 100,0%|2|2 |       | ||       | |
+ Fadec_Ctrl| Compute_Altitude_Pressure                              | 100,0%|7|7 | 100,0%|1|1 |       | |
+ Fadec_Ctrl| Compute_Calibrated_Airspeed                            | 100,0%|7|7 | 100,0%|1|1 |       | |
+ Fadec_Ctrl| Compute_Emergency_Shutdown                             | 100,0%|4|4 | 100,0%|1|1 |       | |
+ Fadec_Di| Prepare_Output_Msg                                     | 100,0%|9|9 |       | ||       | |
+ Fadec_State| Get_Power_Lever_Resolver_Angle                         | 100,0%|5|5 | 100,0%|1|1 |       | |
+ Fadec_State| Set_Power_Lever_Resolver_Angle                         | 100,0%|2|2 |       | ||       | |
+ Fadec_State| Get_Gas_Generator_Speed                                | 100,0%|5|5 | 100,0%|1|1 |       | |
+ Fadec_State| Set_Gas_Generator_Speed                                | 100,0%|2|2 |       | ||       | |
+ Fadec_State| Get_Engine_Torque                                      | 100,0%|5|5 | 100,0%|1|1 |       | |
+ Fadec_State| Set_Engine_Torque                                      | 100,0%|2|2 |       | ||       | |
+ Fadec_State| Get_Engine_Power                                       | 100,0%|5|5 | 100,0%|1|1 |       | |
+ Fadec_State| Set_Engine_Power                                       | 100,0%|2|2 |       | ||       | |
+ Fadec_State| Get_Measured_Gas_Temperature                           | 100,0%|5|5 | 100,0%|1|1 |       | |
+ Fadec_State| Set_Measured_Gas_Temperature                           | 100,0%|2|2 |       | ||       | |
+ Fadec_State| Get_Propeller_Speed                                    | 100,0%|5|5 | 100,0%|1|1 |       | |
+ Fadec_State| Set_Propeller_Speed                                    | 100,0%|2|2 |       | ||       | |
+ Fadec_State| Get_Starter_Requested                                  | 100,0%|5|5 | 100,0%|1|1 |       | |
+ Fadec_State| Set_Starter_Requested                                  | 100,0%|2|2 |       | ||       | |
+ Fadec_State| Get_Oei                                                | 100,0%|5|5 | 100,0%|1|1 |       | |
+ Fadec_State| Set_Oei                                                | 100,0%|2|2 |       | ||       | |
+ Fadec_State| Get_Low_Pitch_Indication                               | 100,0%|5|5 | 100,0%|1|1 |       | |
+ Fadec_State| Set_Low_Pitch_Indication                               | 100,0%|2|2 |       | ||       | |
+ Fadec_State| Get_Propeller_Reverse_Ready                            | 100,0%|5|5 | 100,0%|1|1 |       | |
+ Fadec_State| Set_Propeller_Reverse_Ready                            | 100,0%|2|2 |       | ||       | |
+ Fadec_State| Get_Fadec_In_Control                                   | 100,0%|5|5 | 100,0%|1|1 |       | |
+ Fault_Log| Set_Initialized                                        | 100,0%|1|1 |       | ||       | |
+ Fault_Log| Print_Fault                                            | 100,0%|13|13| 100,0%|1|1 |       | |
+ Fault_Mngr| Check_Tsap_Fault_Actions                               | 100,0%|8|8 | 100,0%|4|4 |       | |
+ Fos_State| Get_Apu_Fire_Detected_Class                            | 100,0%|2|2 |       | ||       | |
+ Fos_State| Set_Apu_Fire_Detected_Class                            | 100,0%|2|2 |       | ||       | |
+ Fos_State| Get_Engine_Fire_Detected_Class                         | 100,0%|2|2 |       | ||       | |
+ Fos_State| Set_Engine_Fire_Detected_Class                         | 100,0%|2|2 |       | ||       | |
+ Fos_State| Get_Engine_Overheat_Detected_Class                     | 100,0%|2|2 |       | ||       | |
+ Fos_State| Set_Engine_Overheat_Detected_Class                     | 100,0%|2|2 |       | ||       | |
+ Fos_State| Get_Engine_Fire_Handle_Class                           | 100,0%|2|2 |       | ||       | |
+ Fos_State| Set_Engine_Fire_Handle_Class                           | 100,0%|2|2 |       | ||       | |
+ Fos_State| Get_Ee_Rack_Smoke_Detected                             | 100,0%|2|2 |       | ||       | |
+ Fos_State| Set_Ee_Rack_Smoke_Detected                             | 100,0%|2|2 |       | ||       | |
+ Fos_State| Get_Cargo_Smoke_Detected                               | 100,0%|2|2 |       | ||       | |
+ Fos_State| Set_Cargo_Smoke_Detected                               | 100,0%|2|2 |       | ||       | |
+ Fos_State| Get_Lavatory_Smoke_Detected                            | 100,0%|2|2 |       | ||       | |
+ Fos_State| Set_Lavatory_Smoke_Detected                            | 100,0%|2|2 |       | ||       | |
+ Fqis_Ctrl| Compute_Lateral_Acceleration                           | 100,0%|6|6 | 100,0%|1|1 |       | |
+ Fqis_Ctrl| Compute_Longitudinal_Acceleration                      | 100,0%|6|6 | 100,0%|1|1 |       | |
+ Fqis_Ctrl| Compute_Normal_Acceleration                            | 100,0%|6|6 | 100,0%|1|1 |       | |
+ Ics_Ctrl| Compute_Message_Selection                              | 100,0%|1|1 |       | ||       | |
+ Ics_Di| Prepare_Output_Msg                                     | 100,0%|6|6 |       | ||       | |
+ Ics_State| Get_Ics_Commander                                      | 100,0%|1|1 |       | ||       | |
+ Ics_State| Set_Ics_Commander                                      | 100,0%|1|1 |       | ||       | |
+ Ids_Mgr| Execute_Smoke_Detector_Algorithms                      | 100,0%|34|34| 100,0%|9|9 |       | |
+ Ids_State| Get_Ids_Msg_List                                       | 100,0%|1|1 |       | ||       | |
+ Ids_State| Set_Ids_Msg_List                                       | 100,0%|1|1 |       | ||       | |
+ Ids_State| Get_Mcwa_State                                         | 100,0%|1|1 |       | ||       | |
+ Ids_State| Set_Mcwa_State                                         | 100,0%|1|1 |       | ||       | |
+ Ids_State| Get_Desired_Tone                                       | 100,0%|1|1 |       | ||       | |
+ Ids_State| Set_Desired_Tone                                       | 100,0%|1|1 |       | ||       | |
+ Ids_State| Set_Pa_Switch_Term                                     | 100,0%|1|1 |       | ||       | |
+ Ids_State| Get_Acaws_Pfd_Salert_Message                           | 100,0%|3|3 |       | ||       | |
+ Ids_State| Set_Acaws_Pfd_Salert_Message                           | 100,0%|3|3 |       | ||       | |
+ Ids_State| Get_Acaws_Term_Sa_Class                                | 100,0%|1|1 |       | ||       | |
+ Ids_State| Set_Acaws_Term_Sa_Class                                | 100,0%|1|1 |       | ||       | |
+ Ids_State| Set_Engine_Fail_Box                                    | 100,0%|2|2 |       | ||       | |
+ Ids_State| Get_Engine_Fail_Box                                    | 100,0%|2|2 |       | ||       | |
+ Init_1553_Manage| Process_Init_Incoming_Msg                              | 100,0%|20|20| 100,0%|2|2 | 100,0%|3|3 
+ Init_1553_Manage| Process_Init_Msg_Content                               | 100,0%|25|25| 100,0%|2|2 |       | |
+ Lgears_Ctrl| Compute_Landing_Gear_Handle_Light                      | 100,0%|6|6 | 100,0%|1|1 | 100,0%|2|2 
+ Lgears_State| Get_Air_Ground_Simulate_Switch                         | 100,0%|6|6 | 100,0%|1|1 |       | |
+ Lgears_State| Set_Air_Ground_Simulate_Switch                         | 100,0%|2|2 |       | ||       | |
+ Lgears_State| Get_All_Gears_Uplocked_Class                           | 100,0%|2|2 |       | ||       | |
+ Lgears_State| Set_All_Gears_Uplocked_Class                           | 100,0%|2|2 |       | ||       | |
+ Lgears_State| Get_Any_Gear_Not_Downlocked_Class                      | 100,0%|2|2 |       | ||       | |
+ Lgears_State| Set_Any_Gear_Not_Downlocked_Class                      | 100,0%|2|2 |       | ||       | |
+ Lgears_State| Get_Downlock_1_Class                                   | 100,0%|6|6 | 100,0%|1|1 |       | |
+ Lgears_State| Set_Downlock_1_Class                                   | 100,0%|2|2 |       | ||       | |
+ Lgears_State| Get_Downlock_2_Class                                   | 100,0%|6|6 | 100,0%|1|1 |       | |
+ Lgears_State| Set_Downlock_2_Class                                   | 100,0%|2|2 |       | ||       | |
+ Lgears_State| Get_Wow_Gnd_Class                                      | 100,0%|2|2 |       | ||       | |
+ Lgears_State| Set_Wow_Gnd_Class                                      | 100,0%|2|2 |       | ||       | |
+ Lgears_State| Get_Wow_Air_Class                                      | 100,0%|2|2 |       | ||       | |
+ Lgears_State| Set_Wow_Air_Class                                      | 100,0%|2|2 |       | ||       | |
+ Lgears_State| Get_Pseu_Wow_Failure_Class                             | 100,0%|2|2 |       | ||       | |
+ Lgears_State| Set_Pseu_Wow_Failure_Class                             | 100,0%|2|2 |       | ||       | |
+ Lgears_State| Get_Lgears_Handle_Position                             | 100,0%|6|6 | 100,0%|1|1 |       | |
+ Lgears_State| Set_Lgears_Handle_Position                             | 100,0%|2|2 |       | ||       | |
+ Lgears_State| Get_Lgears_Handle_Position_Complement                  | 100,0%|6|6 | 100,0%|1|1 |       | |
+ Lgears_State| Set_Lgears_Handle_Position_Complement                  | 100,0%|2|2 |       | ||       | |
+ Lgears_State| Get_Lgears_Term_Wow_Class                              | 100,0%|12|12| 100,0%|6|6 | 100,0%|12|12
+ Licp_Di| Process_Main_Input_Msg                                 | 100,0%|38|38| 100,0%|3|3 |       |  |
+ Licp_State| Get_Test_Switch                                        | 100,0%|2|2 |       | ||       |  |
+ Licp_State| Set_Test_Switch                                        | 100,0%|2|2 |       | ||       |  |
+ Log| Print_Startup_Banner                                   | 100,0%|18|18|       | ||       |  |
+ Log| Print_Padding                                          | 100,0%|4|4 | 100,0%|1|1 |       |  |
+ Log| Print_Channel                                          | 100,0%|3|3 |       | ||       |  |
+ Log| Print_Load_Fr                                          | 100,0%|7|7 |       | ||       |  |
+ Log| Print_Load_Cpu                                         | 100,0%|12|12| 100,0%|3|3 |       |  |
+ Ofp_Specific| Print_Ofp_Info                                         | 100,0%|13|13|       | ||       |  |
+ Mc_Di| Get_Mc_Loopback_Table                                  | 100,0%|1|1 |       | ||       |  |
+ Mc_Di| Proc_In_RS485_Msg                                      | 100,0%|35|35| 100,0%|6|6 | 100,0%|2|2 
+ Normal_Ops| Clear_Timeout_Counters                                 | 100,0%|2|2 |       | ||       | |
+ Normal_Ops| Check_Bus_Activity                                     | 100,0%|10|10| 100,0%|2|2 |       | |
+ Nvm_Mngr| Compile_Exception_Info                                 | 100,0%|9|9 |       | ||       | |
+ Nvm_Mngr| Read_Nvm_Data                                          | 100,0%|8|8 | 100,0%|1|1 |       | |
+ Nvm_Mngr| Update_Nvm_Entry_Index                                 | 100,0%|4|4 | 100,0%|1|1 |       | |
+ Nvm_Mngr| Write_Ofp_Info_Data                                    | 100,0%|8|8 | 100,0%|1|1 |       | |
+ Nvm_Mngr| Write_Tsap_Faults                                      | 100,0%|8|8 | 100,0%|1|1 |       | |
+ Nvm_Mngr| Set_EQSW_Safe_Marker                                   | 100,0%|8|8 | 100,0%|1|1 |       | |
+ Nvm_Mngr| Read_Nvm_Entry_Index                                   | 100,0%|2|2 |       | ||       | |
+ Nvm_Mngr| Write_Nvm_Entry_Index                                  | 100,0%|3|3 | 100,0%|2|2 |       | |
+ Ofp_Config| Get_Equip_From_Config_Table                            | 100,0%|37|37| 100,0%|5|5 |       | |
+ Ofp_Control| Initialize_Apsw                                        | 100,0%|19|19| 100,0%|3|3 | 100,0%|2|2 
+ "OFP_MAIN"| OFP_MAIN                                               | 100,0%|45|45| 100,0%|3|3 |       | |
+ Ofp_Shutdown| Stop_Apsw                                              | 100,0%|8|8 |       | ||       | |
+ Ofp_Shutdown| Perform_Shutdown                                       | 100,0%|5|5 | 100,0%|1|1 |       | |
+ Press_State| Get_Excess_Delta_Pressure                              | 100,0%|9|9 | 100,0%|2|2 | 100,0%|4|4 
+ Press_State| Set_Excess_Delta_Pressure                              | 100,0%|2|2 |       | ||       | |
+ Press_State| Get_Excess_Cabin_Altitude                              | 100,0%|9|9 | 100,0%|2|2 | 100,0%|4|4 
+ Press_State| Set_Excess_Cabin_Altitude                              | 100,0%|2|2 |       | ||       | |
+ Rsp_Mcwa_Ctrl| Compute_Baro_Pressure_Display                          | 100,0%|3|3 |       | ||       | |
+ Rsp_Mcwa_Ctrl| Compute_Mcwa_Light_State                               | 100,0%|25|25| 100,0%|7|7 |       | |
+ Rsp_Mcwa_Di| Prepare_Output_Msg                                     | 100,0%|7|7 |       | ||       | |
+ Rsp_State| Calculate_Delta_Change                                 | 100,0%|12|12| 100,0%|3|3 |       | |
+ Rsp_State| Set_Baroset_Hg_Pressure                                | 100,0%|3|3 | 100,0%|1|1 |       | |
+ Rsp_State| Calculate_Baroset_Hg_Pressure                          | 100,0%|14|14| 100,0%|5|5 |       | |
+ Serial_Rs485| Put_Data                                               | 100,0%|8|8 | 100,0%|1|1 |       | |
+ Serial_Rs485| Set_Iff_Burst                                          | 100,0%|1|1 |       | ||       | |
+ Serial_Rs485| Set_Iff_Info                                           | 100,0%|1|1 |       | ||       | |
+ Serial_Rs485| Port_Is_Enabled                                        | 100,0%|9|9 | 100,0%|1|1 |       | |
+ Serial_Rs485| Write_Output_Serial                                    | 100,0%|12|12| 100,0%|2|2 |       | |
+ Sync_1553_Manage| Calculate_Sync_Checksum                                | 100,0%|5|5 |       | ||       | |
+ Sync_1553_Manage| Check_Sync                                             | 100,0%|10|10| 100,0%|2|2 | 100,0%|5|5 
+ Time_Mngr| Set_Operative_Timestamp                                | 100,0%|1|1 |       | ||       | |
+ Time_Mngr| Retrieve_ETI                                           | 100,0%|9|9 | 100,0%|1|1 |       | |
+ Time_Mngr| Get_ETI                                                | 100,0%|1|1 |       | ||       | |
+ Time_Mngr| Mission_Time                                           | 100,0%|10|10| 100,0%|1|1 |       | |
+ Time_Mngr| Mission_Time                                           | 100,0%|9|9 | 100,0%|1|1 |       | |
+ Time_Mngr| Operative_Time                                         | 100,0%|4|4 | 100,0%|1|1 |       | |
+ Time_Mngr| Operative_Time                                         | 100,0%|1|1 |       | ||       | |
+ Time_Mngr| Has_Time_Elapsed                                       | 100,0%|1|1 |       | ||       | |
+ Time_Mngr| Time_Elapsed                                           | 100,0%|4|4 | 100,0%|1|1 |       | |
+ Time_Mngr| Get_Year_Kind                                          | 100,0%|4|4 | 100,0%|1|1 | 100,0%|3|3 
+ Transaction_Tables| Check_Rate                                             | 100,0%|7|7 |       | ||       | |
+ Transaction_Tables| To_Tsap_BC_Subaddress                                  | 100,0%|3|3 | 100,0%|1|1 | 100,0%|2|2 
+ Trims_State| Get_Wing_Flap_Supply_Voltage                           | 100,0%|7|7 | 100,0%|2|2 |  75,0%|3|4 
+ Trims_State| Set_Wing_Flap_Supply_Voltage                           | 100,0%|2|2 |       | ||       | |
+ Trims_State| Get_Wing_Flap_Position                                 | 100,0%|7|7 | 100,0%|2|2 |  75,0%|3|4 
+ Trims_State| Set_Wing_Flap_Position                                 | 100,0%|2|2 |       | ||       | |
+ Trims_State| Get_Wing_Flap_Symmetry                                 | 100,0%|2|2 |       | ||       | |
+ Trims_State| Set_Wing_Flap_Symmetry                                 | 100,0%|2|2 |       | ||       | |
+ Trims_State| Get_Term_Wing_Flap_Position_Percent                    | 100,0%|23|23| 100,0%|4|4 | 100,0%|5|5 
+ Wrap_Manage| Get_Wrap_Around_Table                                  | 100,0%|1|1 |       | ||       | |
+ Wrap_Manage| Process_Wrap_Input_Msg                                 | 100,0%|6|6 | 100,0%|1|1 |       | |
+ Wrap_Manage| Prepare_Wrap_Output_Msg                                | 100,0%|4|4 | 100,0%|1|1 |       | |
+ Wrap_Manage| Reset_Wrap                                             | 100,0%|4|4 |       | ||       | |
+ Yoke_State| Get_Yoke_Hush_Button                                   | 100,0%|9|9 | 100,0%|2|2 | 100,0%|4|4 
+ Yoke_State| Set_Yoke_Hush_Button                                   | 100,0%|2|2 |       | ||       | |
